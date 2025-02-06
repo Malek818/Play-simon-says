@@ -84,7 +84,7 @@ startOver();
 
 function playSound(name) {
 
-  var audio1 = new Audio("sounds/" + name + ".mp3");
+  var audio1 = new Audio( name + ".mp3");
   audio1.play();
 
 }
